@@ -1,0 +1,81 @@
+{"res" : {
+        "brojPrijava":331,
+        "brojPregleda":6608,
+        "objavaRokPrijave":"23.10.1985-23.10.1999",
+        "status":"Zavrsen",
+        "tablica": [
+                {
+                "brojPregleda": 2000 ,
+                "brojPrijava": 20,
+                "datum":"22.3.2016"
+            },
+            {
+                "brojPregleda": 1500 ,
+                "brojPrijava": 27,
+                "datum":"23.3.2016"
+            },
+            {
+                "brojPregleda": 2223 ,
+                "brojPrijava": 61,
+                "datum":"24.3.2016"
+            },
+            {
+                "brojPregleda": 2511 ,
+                "brojPrijava": 43,
+                "datum":"25.3.2016"
+            },
+            {
+                "brojPregleda": 1998 ,
+                "brojPrijava": 18,
+                "datum":"26.3.2016"
+            },
+            {
+                "brojPregleda": 1211 ,
+                "brojPrijava": 28,
+                "datum":"27.3.2016"
+            },
+            {
+                "brojPregleda": 3221 ,
+                "brojPrijava": 57,
+                "datum":"28.3.2016"
+            },
+            {
+                "brojPregleda": 1000 ,
+                "brojPrijava": 20,
+                "datum":"23.3.2016"
+            }
+        ],
+        "aktivnosti": [
+                    {
+                    "korisnik":"Marko Marjanovic", 
+                    "aktivnost":"kandidat je dodan u 3. selekcijski krug"
+                },
+                {
+                    "korisnik":"Mario Brlic", 
+                    "aktivnost":"prilozen dokument za 3. selekcijski krug"
+                },
+                {
+                    "korisnik":"Andrija Balunovicc", 
+                    "aktivnost":"prilozen dokument za 2. selekcijski krug"
+                },
+                {
+                    "korisnik":"Josip Svadjumovic", 
+                    "aktivnost":"prilozen dokument za 1. selekcijski krug"
+                },
+                {
+                    "korisnik":"Hrvoje Simic", 
+                    "aktivnost":"prilozen dokument za 1. selekcijski krug"
+                }
+            ],
+        "biljeske": [
+            {
+                "korisnik":"Mario Brlic",
+                "biljeska":"prilozio sam dokumente"
+            },
+            {
+                "korisnik":"Filip Marjanovic",
+                "biljeska":"prilozio sam sve potrebne dokumente"
+            }
+        ]
+    }
+}
