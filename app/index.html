@@ -23,59 +23,59 @@
 
 <body> 
  
-	<div style="background-color:#156ba9;" class="container-fluid">
+	<div class="container-fluid" id="container1">
 		<div class="row">
 
-      <div class="container">
-        <div class="row">
-        <div id="BrojPrijava" style="height:35px; background-color:#156ba9;">
-          <div class="vanda">
+              <div class="container">
+                <div class="row">
+                  <div id="BrojPrijava">
+                    <div class="vanda">
+                        <ul>
+                            <li><a href="#">EN</a></li>
+                            <li><a href="#">TAU ON-LINE <span class="glyphicon glyphicon-menu-down"></span></a></li>
+                            <li><a href="#">VANDA RESNIK <span class="glyphicon glyphicon-menu-down"></span></a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-             <ul>
-                    <li><a href="#">EN</a></li>
-                    <li><a href="#">TAU ON-LINE <span class="glyphicon glyphicon-menu-down"></span></a></li>
-                    <li><a href="#">VANDA RESNIK <span class="glyphicon glyphicon-menu-down"></span></a></li>
-              </ul>
+                
+            <div class="container-fluid headerCont">
+              <div class="row">
+
+                <div class="container">
+                  <div class="row">
+
+                  <div class="imgDiv">
+                    <img class="imgHeader" src="/img/mp-gray-logo.svg">
+                  </div>
+
+                    <div class="topnav"  id="myTopnav">
+                        
+                        <div class="gone"></div>
+                        <div class="oglas"><h6>ZA POSLODAVCE</h6><p>objavite oglas</p></div>
+                        
+                        <a href="#">Početna</a>
+                        <a href="#">Poslovi <span class="glyphicon glyphicon-menu-down"></span></a>
+                        <a href="#">Posloprimci <span class="glyphicon glyphicon-menu-down"></span></a>
+                        <a href="#">Tvrtke</a>
+                        <a href="#">Vijesti</a>
+                        <a href="#">Savjeti</a>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
 
           </div>
-        </div>
+          </div>
 
-        </div>
-      </div>
-
-       
-	<div style="background-color:#2688cf; border-bottom: 10px solid #333333;" class="container-fluid headerCont">
-		<div class="row">
-
-      <div class="container">
-        <div class="row">
-
-        <div style="height:85px; background-color:#2688cf;">
-          <img class="imgHeader" style="width:188px; height:60px; margin-top:2em;" src="/img/mp-gray-logo.svg">
-        </div>
-
-	  		<div class="topnav"  id="myTopnav">
-          	
-          <div class="gone" style="position:absolute; float:right; width:30%; height:5%; margin-top:5em;"></div>
-          <div class="oglas"><h6>ZA POSLODAVCE</h6><p>objavite oglas</p></div>
-				  
-					<a href="#">Početna</a>
-					<a href="#">Poslovi <span class="glyphicon glyphicon-menu-down"></span></a>
-					<a href="#">Posloprimci <span class="glyphicon glyphicon-menu-down"></span></a>
-					<a href="#">Tvrtke</a>
-          <a href="#">Vijesti</a>
-          <a href="#">Savjeti</a>
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-				</div>
-        </div>
-      </div>
 		</div>
-	</div>
-  	</div>
-	</div>
-
-		  </div>
-	</div>
+</div>
 
 <!--End of header  -->
 
@@ -83,7 +83,7 @@
       <div class="container">
               <div class="row">
                 
-                  <div style="padding-top:0.5em; height:65px; "><h1>Web administrator</h1></div>
+                  <div class="admin"><h1>Web administrator</h1></div>
                 
               </div>
       </div>
@@ -91,7 +91,7 @@
       <div class="container">
               <div class="row">
 
-                  <div id="web" style="height:35px; border-bottom: 1px solid #c1c1c1;">
+                  <div class="web">
                     <div class="headerButton"><h6><a href="#">Naslovnica</a></h6></div>
                     <div class="headerButton"><h6><a href="#">Poslodavci</h6></div>
                     <div class="headerButton"><h6><a href="#">Moj profil</a></h6></div>
@@ -105,7 +105,7 @@
       <div class="container">
               <div class="row">
 
-                  <div style="height:55px; border-bottom: 1px solid #c1c1c1; margin-bottom:30px;">
+                  <div class="suradnici">
                     <a href=""><div class="headerButton2"><h5><span class="glyphicon glyphicon-envelope"></span> Prijave</h5></div></a>
                     <a href=""><div class="headerButton2"><h5><span class="glyphicon glyphicon-unchecked"></span> Selekcijski krugovi</h5></div></a>
                     <a href=""><div class="headerButton2"><h5><span class="glyphicon glyphicon-zoom-in"></span> Pregledaj oglas</h5></div></a>
@@ -123,86 +123,84 @@
 
             <div class="row">
 
-                <div class="col-xs-6 " style="height:100px;">
-                    <div class="prijava" ><h5>BROJ PRIJAVA</h5> 
-                      <div class="input" id="input1"></div>
+                    <div class="col-xs-6 ">
+                        <div class="prijava" ><h5>BROJ PRIJAVA</h5> 
+                          <div class="input" id="input1"></div>
+                        </div>
                     </div>
-                </div>
 
-                 <div class="col-xs-6" style="height:100px;">
-                    <div class="prijava"><h5>BROJ PREGLEDA</h5> 
-                      <div class="input" id="input2"></span></div>
+                    <div class="col-xs-6">
+                        <div class="prijava"><h5>BROJ PREGLEDA</h5> 
+                          <div class="input" id="input2"></span></div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-xs-6" style="height:150px;">
-                    <div class="prijava"><h5>OBJAVA-ROK PRIJAVE</h5> </span>
-                      <div class="input" id="input3"></div>
+                    <div class="col-xs-6">
+                        <div class="prijava"><h5>OBJAVA-ROK PRIJAVE</h5> </span>
+                          <div class="input" id="input3"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-6" style="height:150px;">
-                    <div class="prijava"><h5>STATUS</h5></span>
-                      <div class="input" id="input4"></div>
+                    <div class="col-xs-6">
+                        <div class="prijava"><h5>STATUS</h5></span>
+                          <div class="input" id="input4"></div>
+                        </div>
                     </div>
-                </div>
 
             </div>
 
             <div class="row">
 
-              <div class="col-md-12" style="height:40px;background-color:blue; border:1px solid white;  margin-top:25px;">
-                  <div class="pregledi"></div>
-              </div>
-
-              <div class="col-md-12" style="height:350px;background-color:black; border:1px solid white;">
-                  <div class="graf"></div>
-              </div>
-
-               <div class="col-md-12" style="height:40px;margin-top:25px;">
-                  <div class="pregledi1">
-                    <h4>Dan</h4><h4>Broj pregleda</h4><h4>Broj prijava</h4>
+                  <div class="col-md-12" id="container2">
+                      <div class="pregledi">
+                          
+                      </div>
                   </div>
-              </div>
 
-              <div class="col-sm-12" style="height:270px; ">
-                  <div id="tablica" class="tablica">
-                    
+                  <div class="col-md-12" id="container3">
+                      <div class="graf"></div>
+                     
                   </div>
-              </div>
 
-              <div class="col-md-12" style="height:40px; clear:both; ">
-                  <div class="pregledi1">
-                    <h5>Ukupno</h5>
+                  <div class="col-md-12" id="container4">
+                      <div class="pregledi1">
+                        <h4>Dan</h4><h4>Broj pregleda</h4><h4>Broj prijava</h4>
+                      </div>
                   </div>
-              </div>
+
+                  <div class="col-sm-12" id="content1">
+                      <div id="tablica" class="tablica">
+                        
+                      </div>
+                  </div>
+
+                  <div class="col-md-12" id="content2">
+                      <div class="pregledi1">
+                        <h5>Ukupno</h5>
+                      </div>
+                  </div>
 
             </div>
       
         </div>
 
-          <div class="col-sm-4" style="background-color:yellow;height:400px;">
-            <h6>BILJEŠKE</h6>
-            <div class="right">
-              <div class="loremIpsum">
-                <div class="loremIpsum1"></div>
-                <div class="loremIpsum2"></div>
+          <div class="col-sm-4" id="content3">
+              <h6>BILJEŠKE</h6>
+              <div class="right">
+                  <div class="loremIpsum">
+                      <div class="loremIpsum1"></div>
+                      <div class="loremIpsum2"></div>
+                  </div>
+                  <div class="biljeska">
+                      <input type="text" name="fname" placeholder="Bilješka...">
+                      <button type="button" class="btn spremi">Spremi</button>
+                  </div>
               </div>
-                <div class="biljeska">
-                  <input type="text" name="fname" placeholder="Bilješka...">
-                  <button type="button" style="margin-top:5px;" class="btn">Spremi</button>
-              </div>
-            </div>
           </div>
 
-          <div class="col-sm-4" style="background-color:red;height:400px;">
+          <div class="col-sm-4" id="content4">
               <h6>AKTIVNOSTI</h6>
               <div class="right">
                 <div class="aktivnosti"></div>
-                <div class="aktivnosti"></div>
-                <div class="aktivnosti"></div>
-                <div class="aktivnosti"></div>
-                <div class="aktivnosti"></div>
-                <a href="#">vidi sve</a>
               </div> 
           </div>
 
@@ -210,12 +208,11 @@
 </div>
 <!--End of content  -->
 
-<footer>
+<!--<footer>-->
 <div class="footers">
-  <div style="background-color:#333333;" class="container-fluid">
+  <div class="container-fluid contFluid">
 		<div class="row">
 
- 
           <div class="container">
             <div class="row">
                 <div class="footer1">
@@ -229,62 +226,57 @@
 		</div>
   </div>
 
-   <div style="background-color:#333333;" class="container-fluid">
+   <div class="container-fluid contFluid1">
 		<div class="row">
 
- 
-          <div class="container">
+         <div class="container">
             <div class="row">
 
               <div class="col-sm-9">
-               <div class="footer2">
-                  <p>MojPosao je danas među 20 najposjećenijih web stranica u zemlji, s više od 770.000 posjetitelja svakog mjeseca. Povjerenje nam je ukazalo više od 54.000 klijenata objavom oglasa na MojPosao.</p>
+                  <div class="footer2">
+                      <p>MojPosao je danas među 20 najposjećenijih web stranica u zemlji, s više od 770.000 posjetitelja svakog mjeseca. Povjerenje nam je ukazalo više od 54.000 klijenata objavom oglasa na MojPosao.</p>
+                      <p>Portalom MojPosao upravlja tvrtka Tau on–line, koja je dio Alma Career.</p>
+                  </div>
+              </div>
 
-                  <p>Portalom MojPosao upravlja tvrtka Tau on–line, koja je dio Alma Career.</p>
+              <div class="col-sm-3">
+                <div class="footer2">
+                    <ul>
+                      <li><a href="#">Kontakt</a></li>
+                      <li><a href="#">Marketing</a></li>
+                      <li><a href="#">Partneri</a></li>
+                      <li><a href="">O nama</a></li>
+                    </ul>
                 </div>
               </div>
 
-            <div class="col-sm-3">
-              <div class="footer2">
-                  <ul>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Partneri</a></li>
-                    <li><a href="">O nama</a></li>
-                  </ul>
-		        </div>
             </div>
-
-
-            </div>
-          </div>
+        </div>
 
 		</div>
   </div>
 
-   <div style="background-color:#333333;" class="container-fluid">
-		<div class="row">
-
- 
-          <div class="container">
-            <div class="row">
-                <div class="footer3">
-                  	<p class="copyright">MojPosao © 2000. - 2017.</p>
-                </div>
+   <div class="container-fluid contFluid2">
+      <div class="row">
+  
+            <div class="container">
+              <div class="row">
+                  <div class="footer3">
+                      <p class="copyright">MojPosao © 2000. - 2017.</p>
+                  </div>
+              </div>
             </div>
-          </div>
 
-		</div>
+      </div>
   </div>
 
-   <div style="background-color:#222222;" class="container-fluid">
+   <div class="container-fluid contFluid3">
 		<div class="row">
-
  
           <div class="container">
             <div class="row">
                
-                  <footer>
+                  <!--<footer>-->
                     <div class="footer4">
                         <p>MojPosao je dio <a href="http://www.almacareer.com/" target="_blank">ALMA CAREER</a> grupacije:</p>
 
@@ -292,22 +284,25 @@
 
                         <p>Tau on-line d.o.o., Strojarska cesta 20, 10000 Zagreb, Hrvatska - OIB: 14273924910 Upisan u registar trgovačkog suda u Zagrebu - MBS 080343957 - IBAN HR3023600001102440138 pri Zagrebačka banka d.d. - Temeljni kapital 20.200,00 HRK upisan u cijelosti - Predsjednik Uprave Igor Žonja</p>
                         </div>	
-                  </footer>
-               </div>
-            </div>
+                  <!--</footer>-->
+
+              </div>
           </div>
 
-            </div>
-          </div>
-</div>
-</footer>
-
+        </div>
       </div>
+
+     </div>
     </div>
 
-  	
+<!--</footer>-->
+
     </div>
   </div>
+
+  	
+</div>
+</div>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -316,10 +311,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 
-  <!-- build:js /scripts/combined.js -->
-  <script src="lib/jquery/dist/jquery.min.js"></script>
-  <script src="js/main.js"></script>
-  <!-- endbuild -->
+<!-- build:js /scripts/combined.js -->
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<!-- endbuild -->
 
 </body> 
 </html>

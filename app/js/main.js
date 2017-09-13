@@ -46,8 +46,21 @@ function myFunction() {
             }).reduce(function(x,xx){
                 return xx.concat(x);
             })
+        
+           },
+           aktivnosti: function(aktivnosti){
+            return aktivnosti.map(function(x){
+                var initials = x.korisnik.split(" ")
+                return '<div class="aktivnosti">' +
+                         '<span>' + initials[0][0]+initials[1][0] + '</span>'+
+                         '<span>' + x.aktivnost + '</span>'+
+                       '</div>'
+            }).reduce(function(x,xx){
+                return xx.concat(x);
+            })
+        
+           }
         }
-    }
 
 //logika za prikaz
   $.get("/js/mockdata.json",function(data){
@@ -57,5 +70,7 @@ function myFunction() {
     $("#input4").text(data.res.status);
     $("#tablica").html(struktura.tablica(data.res.tablica));
     $(".loremIpsum").html(struktura.biljeske(data.res.biljeske));
+    $(".aktivnosti").html(struktura.aktivnosti(data.res.aktivnosti));
 })
 })();
+

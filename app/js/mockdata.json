@@ -1,7 +1,7 @@
 {"res" : {
         "brojPrijava":331,
         "brojPregleda":6608,
-        "objavaRokPrijave":"23.10.1985-23.10.1999",
+        "objavaRokPrijave":"23.10.1985.",
         "status":"Zavrsen",
         "tablica": [
                 {
@@ -48,33 +48,33 @@
         "aktivnosti": [
                     {
                     "korisnik":"Marko Marjanovic", 
-                    "aktivnost":"kandidat je dodan u 3. selekcijski krug"
+                    "aktivnost":"dodan u 3. selekcijski krug"
                 },
                 {
                     "korisnik":"Mario Brlic", 
-                    "aktivnost":"prilozen dokument za 3. selekcijski krug"
+                    "aktivnost":"3.selekcijski krug"
                 },
                 {
                     "korisnik":"Andrija Balunovicc", 
-                    "aktivnost":"prilozen dokument za 2. selekcijski krug"
+                    "aktivnost":"2.selekcijski krug"
                 },
                 {
                     "korisnik":"Josip Svadjumovic", 
-                    "aktivnost":"prilozen dokument za 1. selekcijski krug"
+                    "aktivnost":"1. selekcijski krug"
                 },
                 {
                     "korisnik":"Hrvoje Simic", 
-                    "aktivnost":"prilozen dokument za 1. selekcijski krug"
+                    "aktivnost":"1. selekcijski krug"
                 }
             ],
         "biljeske": [
             {
                 "korisnik":"Mario Brlic",
-                "biljeska":"prilozio sam dokumente"
+                "biljeska":"Lorem ipsum dolor sit amet, an quot alterum nam. Te pri nullam dissentiunt."
             },
             {
                 "korisnik":"Filip Marjanovic",
-                "biljeska":"prilozio sam sve potrebne dokumente"
+                "biljeska":"Lorem ipsum dolor sit amet, an quot alterum nam. Te pri nullam dissentiunt."
             }
         ]
     }
