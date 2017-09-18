@@ -50,9 +50,9 @@ function myFunction() {
            },
            aktivnosti: function(aktivnosti){
             return aktivnosti.map(function(x){
-                var initials = x.korisnik.split(" ")
+      
                 return '<div class="aktivnosti">' +
-                         '<span>' + initials[0][0]+initials[1][0] + '</span>'+
+                 
                          '<span>' + x.aktivnost + '</span>'+
                        '</div>'
             }).reduce(function(x,xx){
